@@ -1,4 +1,3 @@
-oc create -f - <<EOF
 allowHostDirVolumePlugin: false
 allowHostIPC: false
 allowHostNetwork: false
@@ -38,4 +37,3 @@ volumes:
 - secret
 users:
 - system:serviceaccount:tools:wkc-iis-sa
-EOF
